@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magician
+![app -logo](https://user-images.githubusercontent.com/84629565/188321993-9a355d7c-9da3-4b3c-9434-c41d6f6004b7.jpg)
 
-> Description the project.
+> Math Magician is a React-based Single Page App (SPA) that allows users to perform simple calculations and read random math-related quotes. Developed primarily with ReactJS
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, TailwindCSS, JavaScript
+- React
+- Linters:
+  - Stylelint, Lighthouse, Webhint
+  - ESLint
 
 ## Live Demo 
 
@@ -18,24 +21,20 @@ in progess :smile:
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
 ### Install
-
+Have NodeJS installed and follow the next steps
 ### Usage
-
+- `npm i` for installing dev dependecies
+- `npm run build` or `npm start` to see the project
 ### Run tests
-
+- `npm test`
 ### Deployment
-
+- `npm run deploy`
 
 
 ## Authors
@@ -45,13 +44,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@michael-duke](https://github.com/michael-duke)
 - Twitter: [@MikeDuke21](https://twitter.com/MikeDuke21)
 - LinkedIn: [MICHAEL MESFIN](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 
 ## 🤝 Contributing
 
