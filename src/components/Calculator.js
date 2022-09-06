@@ -1,16 +1,22 @@
 import '../styles/Calculator.css';
 import React from 'react';
 
-/* eslint-disable-next-line react/prefer-stateless-function */
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div>
         <section className="Calculator border border-gray-500">
           <div className="grid grid-rows-6 grid-cols-4 gap-2">
+            {/* Result Display */}
             <div className="col-span-4 bg-gray-400 flex items-center justify-end m-[-4px]">
               0
             </div>
+            {/* First row */}
             <button
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -43,6 +49,7 @@ class Calculator extends React.Component {
             >
               &#xf7;
             </button>
+            {/* Second row */}
             <button
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -75,6 +82,7 @@ class Calculator extends React.Component {
             >
               *
             </button>
+            {/* Third row */}
             <button
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -107,6 +115,7 @@ class Calculator extends React.Component {
             >
               -
             </button>
+            {/* Forth row */}
             <button
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -139,6 +148,7 @@ class Calculator extends React.Component {
             >
               +
             </button>
+            {/* Fifth row */}
             <button
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
