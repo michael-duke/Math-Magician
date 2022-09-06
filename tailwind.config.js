@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['COCOGOOSE', 'sans-serif'],
+        sans: ['Raleway', 'sans-serif'],
         nunito: ['nunito', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
@@ -15,7 +15,7 @@ module.exports = {
         ms: { max: '1212px' },
       },
       colors: {
-        'regal-beige': '#f1f5dc',
+        'magic-blue': '#137dc5',
       },
     },
   },
