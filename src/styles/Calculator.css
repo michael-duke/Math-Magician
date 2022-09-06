@@ -1,0 +1,14 @@
+.Calculator {
+  font-size: x-large;
+  padding: 0.25rem;
+}
+
+.Calculator button {
+  padding: 1.1rem 1.3rem;
+  border-radius: 0.65rem;
+  vertical-align: middle;
+}
+
+.Calculator button:active {
+  background-color: rgba(148 163 184);
+}
