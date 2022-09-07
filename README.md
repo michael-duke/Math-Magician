@@ -57,9 +57,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- [Microverse](https://microverse.org)
 - Inspiration
-- etc
+  - [Vitor Guedes Madeira](https://github.com/VitorGuedesMadeira)
+  - [Virag Kormoczy](https://github.com/virag-ky)
 
 ## 📝 License
 
