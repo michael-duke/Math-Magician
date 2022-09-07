@@ -10,6 +10,9 @@ module.exports = {
         nunito: ['nunito', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      fontSize: {
+        'zl':'1.65rem'
+      },
       screens: {
         sm: { max: '768px' },
         ms: { max: '1212px' },
