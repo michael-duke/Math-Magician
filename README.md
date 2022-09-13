@@ -16,7 +16,7 @@
 
 ## Live Demo 
 
-in progess :smile:
+in progess :smile: but try [this](https://michael-duke.github.io/Math-Magician/)
 
 
 ## Getting Started
