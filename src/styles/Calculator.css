@@ -1,6 +1,7 @@
 .Calculator {
   font-size: x-large;
   padding: 0.25rem;
+  background-color: whitesmoke;
 }
 
 .Calculator button {
