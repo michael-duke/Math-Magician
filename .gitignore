@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#http request
+quotes.http
+
 # production
 /build
 
