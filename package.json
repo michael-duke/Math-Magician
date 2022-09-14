@@ -5,9 +5,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "test": "jest __tests__/ --coverage"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,4 +1,4 @@
-import operate from '../src/logic/operate.js';
+const operate = require('../logic/operate').default;
 
 describe('Test the logic of Calculte', () => {
   it('Takes 4 + 3 and return 7', () => {
@@ -8,7 +8,7 @@ describe('Test the logic of Calculte', () => {
     expect(operate(1, 3, '-')).toEqual('-2');
   });
   it('Takes 3 x 3 and return 9', () => {
-    expect(operate(3, 3, 'x')).toEqual('9');
+    expect(operate(3, 3, '*')).toEqual('9');
   });
   it('Takes 6 / 2 and return 3', () => {
     expect(operate(6, 2, '÷')).toEqual('3');
