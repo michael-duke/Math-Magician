@@ -6,17 +6,17 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: '/Math-Magician/',
+      path: '/',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/Math-Magician/calculator',
+      path: '/calculator',
       text: 'Calculator',
     },
     {
       id: 3,
-      path: '/Math-Magician/quote',
+      path: '/quote',
       text: 'Quotes',
     },
   ];
@@ -30,7 +30,7 @@ const Navbar = () => {
           src={logo}
           alt="Math-logo"
         />
-        <h2 className="text-6xl font-semibold text-blue-500/80">
+        <h2 className="text-6xl sm:text-5xl font-semibold text-blue-500/80 sl:w-min">
           Math Magician
         </h2>
       </div>
