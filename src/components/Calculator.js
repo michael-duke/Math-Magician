@@ -20,7 +20,7 @@ function Calculator() {
       <section className="Calculator border-2 border-magic-blue rounded-lg overflow-hidden shadow-calcShadow">
         <div className="grid grid-rows-6 grid-cols-4 gap-2">
           {/*  Result Display  */}
-          <div className="col-span-4 bg-gray-400 text-white text-zl flex items-center justify-end m-[-4px]">
+          <div id="display" className="col-span-4 bg-gray-400 text-white text-zl flex items-center justify-end m-[-4px]">
             {total || next || 0}
           </div>
           {/* First row */}
