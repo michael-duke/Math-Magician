@@ -16,7 +16,7 @@
 
 ## Live Demo 
 
-in progess :smile: but try [this](https://michael-duke.github.io/Math-Magician/)
+Try [this](https://math-magician-2112.netlify.app/) :smile:
 
 
 ## Getting Started
