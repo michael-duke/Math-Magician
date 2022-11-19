@@ -17,7 +17,7 @@ Object {
             src="app-logo.jpg"
           />
           <h2
-            class="text-6xl font-semibold text-blue-500/80"
+            class="text-6xl sm:text-5xl font-semibold text-blue-500/80 sl:w-min"
           >
             Math Magician
           </h2>
@@ -29,8 +29,10 @@ Object {
             class="px-8 text-2xl hover:text-magic-blue/90 border-white border-r-2 last:border-0"
           >
             <a
+              aria-current="page"
+              class="activeLink"
               exact="true"
-              href="/Math-Magician/"
+              href="/"
             >
               Home
             </a>
@@ -40,7 +42,7 @@ Object {
           >
             <a
               exact="true"
-              href="/Math-Magician/calculator"
+              href="/calculator"
             >
               Calculator
             </a>
@@ -50,7 +52,7 @@ Object {
           >
             <a
               exact="true"
-              href="/Math-Magician/quote"
+              href="/quote"
             >
               Quotes
             </a>
@@ -72,7 +74,7 @@ Object {
           src="app-logo.jpg"
         />
         <h2
-          class="text-6xl font-semibold text-blue-500/80"
+          class="text-6xl sm:text-5xl font-semibold text-blue-500/80 sl:w-min"
         >
           Math Magician
         </h2>
@@ -84,8 +86,10 @@ Object {
           class="px-8 text-2xl hover:text-magic-blue/90 border-white border-r-2 last:border-0"
         >
           <a
+            aria-current="page"
+            class="activeLink"
             exact="true"
-            href="/Math-Magician/"
+            href="/"
           >
             Home
           </a>
@@ -95,7 +99,7 @@ Object {
         >
           <a
             exact="true"
-            href="/Math-Magician/calculator"
+            href="/calculator"
           >
             Calculator
           </a>
@@ -105,7 +109,7 @@ Object {
         >
           <a
             exact="true"
-            href="/Math-Magician/quote"
+            href="/quote"
           >
             Quotes
           </a>
