@@ -17,7 +17,7 @@ function Calculator() {
   return (
     <div className="flex justify-center gap-10 sm:flex-col sm:items-center mt-7">
       <h2 className="text-2xl font-semibold text-magic-blue self-start sm:self-center">Let&apos;s do some Math!</h2>
-      <section className="Calculator border-2 border-magic-blue rounded-lg overflow-hidden shadow-calcShadow">
+      <section className="Calculator md:w-[500px] border-2 border-magic-blue rounded-lg overflow-hidden shadow-calcShadow">
         <div className="grid grid-rows-6 grid-cols-4 gap-2">
           {/*  Result Display  */}
           <div id="display" className="col-span-4 bg-gray-400 text-white text-zl flex items-center justify-end m-[-4px]">
