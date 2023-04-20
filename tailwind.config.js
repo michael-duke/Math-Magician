@@ -12,7 +12,7 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif']
       },
       fontSize: {
-        'zl':'1.65rem'
+        'zl':'2rem'
       },
       screens: {
         sm: { max: '768px' },
