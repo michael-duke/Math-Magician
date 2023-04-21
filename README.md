@@ -9,7 +9,7 @@
 ## Built With
 
 - HTML, TailwindCSS, JavaScript
-- React
+- React JS
 - Linters:
   - Stylelint, Lighthouse, Webhint
   - ESLint
